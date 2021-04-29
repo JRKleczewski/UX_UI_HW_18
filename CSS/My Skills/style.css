@@ -1,0 +1,21 @@
+<link rel='stylesheet' type='text/css' href='style.css'
+<!--  My UX Skills section coded using CSS flex -->
+.ul {
+    align-items: center;
+    background-color: blue;
+    padding: 5px;
+}
+.flexcontainer {
+    flex: 33%;
+    flex-direction: column;
+    width: 33%;
+}
+.workGrid {
+    align-items: left;
+    text-shadow: blue;
+    grid-row: left;
+}
+.header {
+    background-color: blue;
+    align-self: center;
+}

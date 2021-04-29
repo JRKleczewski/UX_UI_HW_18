@@ -1,0 +1,72 @@
+<!-- My Work Section Constructed using CSS Grid -->
+<link rel='stylesheet' type='text/css' href='style.css'>
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px 300px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  div.a {
+    width: auto;
+    border: 1px solid black;
+  }
+  
+  div.b {
+    width: 150px;
+    border: 1px solid black;
+  }
+  
+  div.c {
+    width: 100%;
+    border: 1px solid black;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "My Work";
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: 100px 300px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  #CategoryGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      
+  }
